@@ -6,4 +6,10 @@ fun main(args: Array<String>) {
     println("Smallest value is: ${min(firstValue, secondValue)}")
 }
 
-fun min(value1: Int, value2: Int) = if (value1 < value2) value1 else value2
+fun min(value1: Int, value2: Int): Int {
+    if (value1 < value2){
+        return value1
+    } else {
+        return value2
+    }
+}

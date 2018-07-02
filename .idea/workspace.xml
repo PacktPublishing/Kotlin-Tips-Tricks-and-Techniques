@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="102704e2-a2fb-4f86-bc84-887a0a4348d0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/section1/Section1.2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Section1/ExprBody.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/section1/Section1.1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/section1/section1.1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/section1/section1.1.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Section1.1.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/section1/Section1.1.kt">
+      <file leaf-file-name="section1.1.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/section1/section1.1.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="228">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Section1.2.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/section1/Section1.2.kt">
+      <file leaf-file-name="section1.2.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/section1/section1.2.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="76">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -59,6 +58,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/Section1/ExprBody.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/section1/section1.2.kt" />
+        <option value="$PROJECT_DIR$/src/section1/section1.1.kt" />
       </list>
     </option>
   </component>
@@ -225,7 +226,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32978722" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7173252" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18189038" />
@@ -262,14 +263,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/section1/Section1.1.kt">
+    <entry file="file://$PROJECT_DIR$/src/section1/section1.1.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/section1/Section1.2.kt">
+    <entry file="file://$PROJECT_DIR$/src/section1/section1.2.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
@@ -283,7 +284,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/section1/Section1.1.kt">
+    <entry file="file://$PROJECT_DIR$/src/section1/section1.1.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
@@ -291,7 +292,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/kotlin-tips-tricks/Section1/ExprBodyKt.class" />
-    <entry file="file://$PROJECT_DIR$/src/section1/Section1.1.kt" />
+    <entry file="file://$PROJECT_DIR$/src/section1/section1.1.kt" />
     <entry file="file://$PROJECT_DIR$/out/production/kotlin-tips-tricks/Section1/ExprBodyKt.class" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -300,7 +301,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/section1/Section1.1.kt">
+    <entry file="file://$PROJECT_DIR$/src/section1/section1.1.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
@@ -330,17 +331,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/section1/Section1.2.kt">
+    <entry file="file://$PROJECT_DIR$/src/section1/section1.2.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="76">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/section1/Section1.1.kt">
+    <entry file="file://$PROJECT_DIR$/src/section1/section1.1.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="228">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
