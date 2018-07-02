@@ -16,7 +16,7 @@ fun scores(score: Score) : Int {
     } else if (score is Boundary) {
         score.boundaries * 4
     } else if (score is Six) {
-        return score.sixes * 6
+        score.sixes * 6
     } else {
         throw IllegalArgumentException("Unknown Type")
     }
