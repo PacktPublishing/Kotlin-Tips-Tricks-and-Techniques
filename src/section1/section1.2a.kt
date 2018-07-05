@@ -8,21 +8,20 @@ fun main(args: Array<String>) {
         0
     }
     if (age != null)
-        checkAge(age)
+        println("Can drive in ${checkCountries(age)}")
 }
 
-fun checkAge(age: Int) {
-    if (age < 14) {
-        println("$age is to young to drive in any country")
-    } else if (age < 15) {
-        println("$age is old enough to drive in Guyana")
-    } else if (age < 16) {
-        println("$age is old enough to drive in Guyana and Canada")
-    } else if (age < 17) {
-        println("$age is old enough to drive in Guyana, Canada and France")
-    } else if (age < 18) {
-        println("$age is old enough to drive in Guyana, Canada, France and Alberta")
-    } else {
-        println("$age is old enough to drive in any country")
-    }
+fun checkCountries(age: Int): String {
+    return if (age < 14)
+        "no country"
+     else if (age < 15)
+        "Guyana"
+     else if (age < 16)
+        "Guyana and Canada"
+     else if (age < 17)
+        "Guyana, Canada and France"
+     else if (age < 18)
+        "Guyana, Canada, France and Alberta"
+     else
+        "any country"
 }
