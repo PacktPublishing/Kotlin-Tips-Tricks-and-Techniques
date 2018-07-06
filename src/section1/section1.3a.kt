@@ -1,7 +1,10 @@
 package section1
 
 fun main(args: Array<String>) {
-    println("Total Score = ${cricketScore(12, 4, 3)}")
+
+    val total = cricketScore(12, 40, 6)
+
+    println("total score = $total")
 }
 
 fun cricketScore(singles: Int, boundaries: Int, sixer: Int) =
