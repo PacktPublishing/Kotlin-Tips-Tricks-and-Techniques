@@ -1,14 +1,8 @@
 package section1
 
-import java.text.DateFormat
-import java.util.*
-
-val Date.short: String
-    get() = DateFormat.getDateInstance().format(this)
-
 fun main(args: Array<String>) {
-//    println("Current date = $date")
-    println("Current date = ${Date().short}")
+    val tel = StringBuilder("819012345678")
+    println("Number = $tel")
+    println("Country code = ${tel.substring(0, 2)}")
 }
 
-//fun Date.simple() = DateFormat.getDateInstance().format(this)
