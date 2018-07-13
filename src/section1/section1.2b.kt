@@ -10,14 +10,10 @@ fun main(args: Array<String>) {
     println("Total cricket score is: $total")
 }
 
-fun scores(score: Score) : Int {
-    return if(score is Run) {
-        score.runs
-    } else if (score is Boundary) {
-        score.boundaries * 4
-    } else if (score is Six) {
-        score.sixes * 6
-    } else {
-        throw IllegalArgumentException("Unknown Type")
-    }
-}
+fun scores(score: Score) =
+        when (score) {
+            is Run -> score.runs
+            is Boundary -> score.boundaries * 4
+            is Six -> score.sixes * 6
+            else -> throw IllegalArgumentException("Unknown Type")
+        }
