@@ -7,11 +7,14 @@ fun main(args: Array<String>) {
 }
 
 fun checkCountries(age: Int) =
-        when {
-            age < 14 -> "no country"
-            age < 15 -> "Guyana"
-            age < 16 -> "Guyana and Canada"
-            age < 17 -> "Guyana, Canada and France"
-            age < 18 -> "Guyana, Canada, France and Alberta"
-            else -> "any country"
-        }
+        if (age < 14)
+            "no country"
+        else if (age < 15)
+            "Guyana"
+        else if (age < 16)
+            "Guyana and Canada"
+        else if (age < 17)
+            "Guyana, Canada and France"
+        else if (age < 18)
+            "Guyana, Canada, France and Alberta"
+        else "any country"
