@@ -5,9 +5,9 @@ import java.util.*
 
 fun main(args: Array<String>) {
     val date = Date()
-    println("Current date = ${date.short()}")
+    println("Current date = ${date}")
 }
 
-fun Date.short() =
-        DateFormat.getDateInstance().format(this)
+/*fun Date.short() =
+        DateFormat.getDateInstance().format(this)*/
 

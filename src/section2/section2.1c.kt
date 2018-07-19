@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     println(score(total))
 }
 
-fun score(total: Any): Int {
-    return (total as Try).points
+fun score(total: Any): Int? {
+    return (total as? Try)?.points ?: 0
 }
 

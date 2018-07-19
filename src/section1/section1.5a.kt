@@ -6,9 +6,9 @@ class SimpleThread : Thread() {
     }
 }
 fun main(args: Array<String>) {
-    val thread = SimpleThread().apply {
-        name = "MyThread"
-        start()
-    }
+    val thread = SimpleThread().also {
 
+    }
+//    thread.name = "MyThread"
+//    thread.start()
 }

@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
 
     var phoneNumber: String? = null
 
-    println(if (phoneNumber != null) phoneNumber else "+447911123456")
+    println(null ?: "+447911123456")
 
 }
 

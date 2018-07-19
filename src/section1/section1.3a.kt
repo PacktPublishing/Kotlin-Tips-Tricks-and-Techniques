@@ -2,10 +2,10 @@ package section1
 
 fun main(args: Array<String>) {
 
-    val total = cricketScore(singles = 12, sixer = 4)
+    val total = cricketScore(12, 4, 0)
 
     println("total score = $total")
 }
 
-fun cricketScore(singles: Int=0, boundaries: Int=0, sixer: Int=0) =
+fun cricketScore(singles: Int, boundaries: Int, sixer: Int) =
         singles + boundaries * 4 + sixer * 6
