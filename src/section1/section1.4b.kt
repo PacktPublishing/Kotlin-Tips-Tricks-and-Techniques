@@ -6,5 +6,3 @@ fun main(args: Array<String>) {
     println("Country code = ${tel.substring(0, 2)}")
 }
 
-/*val String.countryCode: String
-    get() = this.substring(0, 2)*/
