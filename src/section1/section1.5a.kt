@@ -1,14 +1,14 @@
 package section1
 
-class SimpleThread : Thread() {
-    override fun run() {
-        println("${Thread.currentThread()} has run")
-    }
-}
 fun main(args: Array<String>) {
-    val thread = SimpleThread().also {
 
-    }
-//    thread.name = "MyThread"
-//    thread.start()
+    val phoneNumber = "+447911123456"
+
+    println("country: ${phoneNumber.substring(0,3)}")
+    println("destination: ${phoneNumber.substring(3,7)}")
+    println("subscriber: ${phoneNumber.substring(7,13)}")
+    println("size: ${phoneNumber.length}")
 }
+
+
+
