@@ -1,14 +1,11 @@
 package section2
 
-var message : String? = null
-
 fun main(args: Array<String>) {
-    message = "I am not null"
-    showMessage()
+
+    var tries: Int? = null
+    convertToPoints(tries)
 }
 
-fun showMessage() {
-    message?.let { message ->
-        println(message)
-    }
+fun convertToPoints(tries: Int) {
+    println(tries * 5)
 }
