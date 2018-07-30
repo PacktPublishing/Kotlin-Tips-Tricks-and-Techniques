@@ -1,9 +1,10 @@
 package section2
 
+import java.util.*
+
 fun main(args: Array<String>) {
 
-    var scores: Array<String?>? = null
-    scores = arrayOf("45", null, "120", null)
-
+    var scores: List<String?>? = null
+    scores = listOf("45", null, "120", null)
 
 }
