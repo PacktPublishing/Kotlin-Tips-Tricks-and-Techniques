@@ -23,9 +23,13 @@ class CameraMode {
 }
 
 fun main(args: Array<String>) {
-    println(CameraMode().mode)
-    println(CameraMode(2000).mode)
-    println(CameraMode(1.2).mode)
-    println(CameraMode(shutter = 2000, aperture = 1.2).mode)
+    val modeOne = CameraMode()
+    val modeTwo = CameraMode(2000)
+    val modeThree = CameraMode(1.2)
+    val modeFour = CameraMode(shutter = 2000, aperture = 1.2)
+    println(modeOne.mode)
+    println(modeTwo.mode)
+    println(modeThree.mode)
+    println(modeFour.mode)
 }
 
