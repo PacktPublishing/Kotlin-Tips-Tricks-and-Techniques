@@ -1,7 +1,7 @@
 package section4
 
 fun main(args: Array<String>) {
-    val total: Int = sum(2, 3)
+    val total = sum(2, 3)
     println(total)
 }
 
