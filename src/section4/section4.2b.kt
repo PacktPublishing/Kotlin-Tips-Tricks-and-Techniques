@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
 
 }
 
-fun thread(
+fun newThread(
         start: Boolean = true,
         name: String? = null,
         priority: Int = -1
