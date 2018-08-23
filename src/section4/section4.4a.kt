@@ -7,9 +7,7 @@ class MediaMetaData(
         val album: String
 )
 
-fun main(args: Array<String>) {
-
-    val musicSorce = listOf(
+val musicSorce = listOf(
             MediaMetaData(
                     100,
                     "Come Fly with Me",
@@ -35,6 +33,8 @@ fun main(args: Array<String>) {
                     "Pot Luck"
             )
     )
+
+fun main(args: Array<String>) {
 
 }
 
