@@ -27,7 +27,7 @@ fun startBackgroundThread() {
 fun stopBackgroundThread() {
     try {
         backgroundThread!!.join()
-        backgroundThread == null
+        backgroundThread = null
     } catch (e: InterruptedException) {
         println(e.printStackTrace())
     }
