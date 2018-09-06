@@ -36,9 +36,8 @@ fun main(args: Array<String>) {
             )
     )
 
-    val playlist = buildPlayList(musicSorce, "Come Fly with me")
-    val albumTitles = displayAlbumTitles(playlist, "Come Fly with me")
-    println("title: ${albumTitles}")
+    val albumTitles = displayAlbumTitles(musicSorce, "Come Fly with me")
+    println("title: $albumTitles")
 }
 
 fun displayAlbumTitles(source: List<MediaMetaSequence>, album: String): List<String> {
@@ -49,8 +48,3 @@ fun displayAlbumTitles(source: List<MediaMetaSequence>, album: String): List<Str
     }
 }
 
-fun buildPlayList(source: List<MediaMetaSequence>, album: String): List<MediaMetaSequence> {
-    return source.filter {
-        it.album == album
-    }
-}
