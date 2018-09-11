@@ -6,11 +6,12 @@
 
     <TextView
             android:text="@string/firstFragment"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:id="@+id/textView"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:background="@android:color/holo_green_light" android:padding="10dp"
+            android:background="@android:color/holo_orange_light"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center"/>
 </android.support.constraint.ConstraintLayout>
