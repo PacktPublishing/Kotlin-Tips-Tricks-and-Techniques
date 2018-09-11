@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">KTX Fragment</string>
+    <string name="fragmentOne">Fragment One</string>
+    <string name="fragmentTwo">Fragment Two</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="firstFragment">First Fragment</string>
+    <string name="secondFragment">Second Fragment</string>
 </resources>
