@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity" tools:layout_editor_absoluteY="81dp">
 
     <Button
             android:text="@string/fragmentOne"
@@ -13,15 +13,28 @@
             android:layout_height="wrap_content"
             android:id="@+id/fragmentOneButton"
             android:background="@android:color/holo_orange_light" android:padding="10dp"
-            app:layout_constraintStart_toStartOf="@+id/fragmentTwoButton"
-            android:layout_marginStart="1dp" android:layout_marginBottom="74dp"
-            app:layout_constraintBottom_toTopOf="@+id/fragmentTwoButton"/>
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="9dp" app:layout_constraintBaseline_toBaselineOf="@+id/fragmentTwoButton"
+            app:layout_constraintEnd_toStartOf="@+id/fragmentTwoButton" android:layout_marginEnd="12dp"
+    />
     <Button
             android:text="@string/fragmentTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/fragmentTwoButton"
             android:background="@android:color/holo_green_light" android:padding="10dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="199dp"/>
+            android:layout_marginTop="66dp"
+            app:layout_constraintStart_toEndOf="@+id/fragmentOneButton" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="36dp" app:layout_constraintBottom_toTopOf="@+id/fragmentContainer"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/fragmentContainer"
+            app:layout_constraintTop_toBottomOf="@+id/fragmentTwoButton" android:layout_marginBottom="32dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginEnd="8dp">
+
+    </FrameLayout>
 </android.support.constraint.ConstraintLayout>
