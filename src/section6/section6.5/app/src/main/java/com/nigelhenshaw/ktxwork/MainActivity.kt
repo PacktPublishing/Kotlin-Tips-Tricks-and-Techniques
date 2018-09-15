@@ -1,6 +1,5 @@
 package com.nigelhenshaw.ktxwork
 
-import android.arch.lifecycle.Observer
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
