@@ -1,5 +1,10 @@
 package section3
 
+/**
+ * CameraMode class uses secondary constructors.
+ * These will be replaced with a companion object method
+ * to simply the code.
+ */
 class CameraMode {
 
     val mode: String
@@ -23,6 +28,7 @@ class CameraMode {
 }
 
 fun main(args: Array<String>) {
+    // Create different instances of CameraMode then display it's mode property
     val modeOne = CameraMode()
     val modeTwo = CameraMode(2000)
     val modeThree = CameraMode(1.2)
