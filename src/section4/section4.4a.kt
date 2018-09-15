@@ -1,5 +1,8 @@
 package section4
 
+/**
+ * Used as a template for creating a list of songs
+ */
 class MediaMetaData(
         val id: Int = 0,
         val title: String,
@@ -7,6 +10,9 @@ class MediaMetaData(
         val album: String
 )
 
+/**
+ * List of MediaMetaData songs.
+ */
 val musicSorce = listOf(
             MediaMetaData(
                     100,
