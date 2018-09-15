@@ -1,5 +1,14 @@
 package section3
 
+/**
+ * Create a sub-class from TextBuilderSuper
+ * Then add secondary constructors which will called the applicable super class constructor
+ */
+
+
+/**
+ * TextBuilder super will be used as the parent class for TextBuilderChild
+ */
 open class TextBuilderSuper{
     var capacity = 0
     var content: String? = null
@@ -17,5 +26,7 @@ open class TextBuilderSuper{
 }
 
 fun main(args: Array<String>) {
+    // Create instances of TextBuilderChild which will call each secondary constructor
+    // Then display the capacity and content of the instances
 
 }
