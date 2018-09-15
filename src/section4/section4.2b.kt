@@ -1,9 +1,15 @@
 package section4
 
 fun main(args: Array<String>) {
+    // Call the newThread() function and pass in the Lambda
+    // code which displays the current thread information
 
 }
 
+/**
+ * An additional function type parameter will be added.
+ * Which will be used to execute code passed in as Lambdas.
+ */
 fun newThread(
         start: Boolean = true,
         name: String? = null,
