@@ -9,7 +9,12 @@ package section3
  */
 
 
+/**
+ * In this exercise we will demonstrate how to use an object expression
+ * to create an anonymous object. The anonymous object will be a Thread
+ * singleton.
+ */
 fun main(args: Array<String>) {
-    // Call the thread function
+    // Call the thread function pasing the name and priority arguments.
 }
 
