@@ -23,8 +23,13 @@ class StateObjects {
  * Create new function  immutableList() to attempt to modify immutable list
  */
 
+/**
+ * This exercise will compare three values for thread safety. A mutable list,
+ * a read-only list and an immutable list.
+ * And identify which values are thread safe.
+ */
 fun main(args: Array<String>) {
-    // Call the three newly created functions to verify which ones are thread safe.
+    // Call the three newly created functions to see which are thread safe.
     val stateObjects = StateObjects()
 }
 
