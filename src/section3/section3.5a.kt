@@ -27,6 +27,11 @@ class CameraMode {
 
 }
 
+/**
+ * This exercise will demonstrate how to replace a classes
+ * secondary constructors by using a factory pattern that
+ * uses a companion object.
+ */
 fun main(args: Array<String>) {
     // Create different instances of CameraMode then display it's mode property
     val modeOne = CameraMode()
