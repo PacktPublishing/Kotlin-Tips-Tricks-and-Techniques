@@ -40,7 +40,27 @@ val musicSorce = listOf(
             )
     )
 
+/**
+ * Create a function called buildPlayList(), which will
+ * build a playlist
+ */
+
+
+/**
+ * Create a function called displayPlayListTitles() to display the playlist titles
+ */
+
+
+/**
+ * Create a function called displayAlbumTitles().
+ * It will chain the filter and map calls to return the album titles
+ */
+
+
+
 fun main(args: Array<String>) {
+    // Call the buildPlayList() and displayPlayListTitles() first to display the titles
+    // Then replace the above two function calls with the displayAblumTitles() function.
 
 }
 
