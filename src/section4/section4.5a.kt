@@ -2,8 +2,8 @@ package section4
 
 /**
  * Used to contain song meta data
- * The universal methods will be added and demonstrated
- * Then the universal methods will be replaced with the data class
+ * Add the universal methods toString(), equals() and hashCode()
+ * Then replace the universal methods with data class
  */
 private class MusicMetaData(
         val id: Int = 0,
@@ -12,8 +12,11 @@ private class MusicMetaData(
 )
 
 /**
- * The source value will be used for checking the toString(),
- * equals() and hashCode() methods in the MusicMetaData class
+ * This exercise will demonstrate the implementation and usage
+ * of the class universal methods
+ * The universal methods will be implemented inside the MusicMetaData
+ * manually.
+ * And then replaced with the data class.
  */
 fun main(args: Array<String>) {
     // Create a single instance of MusicMetaData
@@ -22,4 +25,11 @@ fun main(args: Array<String>) {
             "Come Fly with Me",
             "Frank Sinatra"
     )
+    // Display source.toString
+
+    // Create a second instance of source and check them with
+    // the equals method
+
+    // Create a hashset of source and then check the hashcode
+    // against the second instance of source
 }
