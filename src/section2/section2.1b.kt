@@ -10,6 +10,9 @@ interface Score
  */
 open class Run(val runs: Int) : Score
 
+/**
+ * This exercise will use safe casts for type checking against null values
+ */
 fun main(args: Array<String>) {
 
     val total: Any = 123
