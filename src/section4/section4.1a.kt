@@ -1,8 +1,13 @@
 package section4
 
+/**
+ * This exercise will compare lambdas against functions.
+ * First the function sum will be executed. And then it
+ * will be replaced by a lambda with the same functionality
+ */
 fun main(args: Array<String>) {
-    // A lambda expression will be added
-    // to replace the Sum() function
+    // Create a lambda expression to replace sum()
+    // and return the result to the value sum
     val total = sum(2, 3)
     println(total)
 }
