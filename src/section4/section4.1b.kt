@@ -6,7 +6,12 @@ package section4
  */
 
 
-
+/**
+ * This exercise will demonstrate how the group a collection
+ * elements by their size.
+ * The collection groupBy lambda will be used to assist with
+ * generating the list.
+ */
 fun main(args: Array<String>) {
     // Call the newly created groupByLength function
     // and pass in the words value.
