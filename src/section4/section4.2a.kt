@@ -6,6 +6,12 @@ package section4
  */
 
 
+/**
+ * This exercise will demonstrate how to create a higher order function.
+ * First by either passing the add or multiply function to the newly created
+ * higher order function.
+ * Then replacing the function with a lambda expression.
+ */
 fun main(args: Array<String>) {
     // Call the newly created functionArgument() function
     // and use a member reference to pass the multiply function as a argument
