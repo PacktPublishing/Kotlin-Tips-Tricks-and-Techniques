@@ -57,7 +57,13 @@ val musicSorce = listOf(
  */
 
 
-
+/**
+ * This exercise will demonstrate how to execute the common collection tasks filter and map.
+ * Separate functions will be created for filtering a list by album. And then using the map
+ * command to create a new list of titles.
+ * Then a single function will created to generate the title list by chaining the filter
+ * and map commands together.
+ */
 fun main(args: Array<String>) {
     // Call the buildPlayList() and displayPlayListTitles() first to display the titles
     // Then replace the above two function calls with the displayAblumTitles() function.
