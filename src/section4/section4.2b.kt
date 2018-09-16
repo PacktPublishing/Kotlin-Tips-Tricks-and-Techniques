@@ -1,5 +1,10 @@
 package section4
 
+/**
+ * This exercise will demonstrate added a function type parameter
+ * to a higher order function.
+ * And then providing a lambda as an argument when called.
+ */
 fun main(args: Array<String>) {
     // Call the newThread() function and pass in the Lambda
     // code which displays the current thread information
