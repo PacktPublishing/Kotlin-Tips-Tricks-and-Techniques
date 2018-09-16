@@ -1,5 +1,10 @@
 package section1
 
+/**
+ * Insert the println calls inside a with() function with phoneNumber
+ * provided as the argument.
+ * To demonstrate the advantage of using the with() function.
+ */
 fun main(args: Array<String>) {
 
     val phoneNumber = "+447911123456"
