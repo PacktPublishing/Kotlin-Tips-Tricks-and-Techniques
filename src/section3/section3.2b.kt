@@ -25,6 +25,10 @@ open class TextBuilderSuper{
     }
 }
 
+/**
+ * This exercise will demonstrate initializing a super classes constructors
+ * from the child classes secondary constructors.
+ */
 fun main(args: Array<String>) {
     // Create instances of TextBuilderChild which will call each secondary constructor
     // Then display the capacity and content of the instances
