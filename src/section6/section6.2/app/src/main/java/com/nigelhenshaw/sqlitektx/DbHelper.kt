@@ -12,6 +12,9 @@ private const val SQL_CREATE_ENTRIES =
 
 private const val SQL_DELETE_ENTRIES = "DROP TABLE IF EXISTS ${KtxContract.KtxEntry.TABLE_NAME}"
 
+/**
+ * SQlite helper class to support the creation of the database
+ */
 class DbHelper(context: Context): SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
 
     override fun onCreate(db: SQLiteDatabase?) {
