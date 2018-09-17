@@ -1,5 +1,11 @@
 package section5
 
+/**
+ * First lazy implementation using a backing property
+ * will be implemented in this class.
+ * Then that implementation will be replaced with
+ * the by lazy delegate.
+ */
 class MediaMetaData(
         val id: Int = 0,
         val title: String,
@@ -7,6 +13,10 @@ class MediaMetaData(
         val album: String
 )
 
+/**
+ * Collection which contains a list of
+ * MediaMetaData
+ */
 val musicSource = listOf(
         MediaMetaData(
                 100,
@@ -38,6 +48,12 @@ class MusicService {
     val playlist = musicSource
 }
 
+/**
+ * This exercise will implement lazy implementation using a
+ * backing property in the MediaMetaData class.
+ * Then the lazy implementation will be replaced with the
+ * by lazy delegate.
+ */
 fun main(args: Array<String>) {
     val music = MusicService()
     val playlist = music.playlist
