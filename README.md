@@ -25,14 +25,22 @@ This course is for Kotlin developers who want to learn useful and interesting ti
 For successful completion of this course, students will require the computer systems with at least the following:<br/>
 
 Basic Hardware Requirements
+
 •	OS: Microsoft Windows 10/8/7/Vista/2003/XP or macOS 10.8.3 or higher
+
 •	Processor: Intel Core i5 or equivalent
+
 •	Memory: 8 GB RAM
+
 •	Storage: 35 GB available space
 
 Software Requirements
+
 •	Operating system: Windows, Mac or Linux
+
 •	Browser: Chrome or Firefox
+
 •	Intellij IDEA Community Edition - https://www.jetbrains.com/idea/download/
+
 •	Android SDK (This can be installed from Intellij IDEA when creating an Android project
 
