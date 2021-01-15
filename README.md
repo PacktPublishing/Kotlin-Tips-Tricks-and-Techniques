@@ -1,5 +1,5 @@
 # Kotlin – Tips, Tricks, and Techniques [Video]
-This is the code repository for [Kotlin – Tips, Tricks, and Techniques [Video]](https://www.packtpub.com/application-development/kotlin-%E2%80%93-tips-tricks-and-techniques-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
+This is the code repository for [Kotlin – Tips, Tricks, and Techniques [Video]](https://www.packtpub.com/application-development/kotlin-tips-tricks-and-techniques-video), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
 Do you want to see an increase in your productivity as an Android developer? With this course, you will discover new possibilities with Kotlin and improve your app development process.
 In this course, you will work with interesting tools and techniques on examples which you can adopt straightaway. You will speed up your development with less coding and get faster results.
